@@ -1,0 +1,225 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.header h1{
+  width: 100%;
+  color:white;
+  background-color: blue;
+  
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  background: whitesmoke;
+  padding-right:600px;
+}
+
+.webpage{
+  position: relative;
+  width: 420px;
+  height: 450px;
+  background-color: green;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+}
+
+.webpage .login-box{ 
+  width: 100%;
+  padding: 40px;
+}
+
+.register-box{
+  position: absolute;
+}
+
+form h1{
+  font-size: 36px;
+  text-align: center;
+}
+
+form .inputbox{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.inputbox input{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border:2px solid rgb(255,255,255,.1);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+  
+}
+
+.inputbox input::placeholder{
+  color: #fff;
+}
+
+.inputbox .icons{
+  position: absolute;
+  right: 20px;
+  top:50%;
+  translate: 0 -50%;
+  font-size: 16px;
+
+}
+
+.forgot a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.forgot a:hover{
+  text-decoration: underline;
+  color:blue;
+}
+
+form button{
+  width: 100%;
+  height:42px;
+  background-color: blue;
+  border: none;
+  border-radius: 40px;
+  outline: none;
+  margin-top: 10px;
+  box-shadow: 0 0 10px pink ;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.regs-link {
+  font-size: 15px;
+  text-align: center;
+  margin:20px 0;
+}
+
+.regs-link p a {
+  color: white;
+  text-decoration: none;
+  font-size: 600;
+}
+.regs-link p{
+  color: white;
+}
+
+.regs-link p a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+
+
+.register-box{
+  position: relative;
+  width: 420px;
+  height: 450px;
+  background-color: green;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.webpage .login-box{ 
+  width: 100%;
+  padding: 40px;
+}
+
+.register-box{
+  position: absolute;
+}
+
+form h1{
+  font-size: 36px;
+  text-align: center;
+}
+
+form .inputbox{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.inputbox input{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border:2px solid rgb(255,255,255,.1);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+  
+}
+
+.inputbox input::placeholder{
+  color: #fff;
+}
+
+.inputbox .icons{
+  position: absolute;
+  right: 20px;
+  top:50%;
+  translate: 0 -50%;
+  font-size: 16px;
+
+}
+
+
+form button{
+  width: 100%;
+  height:42px;
+  background-color: blue;
+  border: none;
+  border-radius: 40px;
+  outline: none;
+  margin-top: 10px;
+  box-shadow: 0 0 10px pink ;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+form .regs-link {
+  font-size: 15px;
+  text-align: center;
+  margin:20px 0;
+}
+
+.regs-link p a {
+  color: white;
+  text-decoration: none;
+  font-size: 600;
+}
+.regs-link p{
+  color: white;
+}
+
+.regs-link p a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.register-box{
+  display: flex;
+  justify-content: center;
+}
+
+
+
